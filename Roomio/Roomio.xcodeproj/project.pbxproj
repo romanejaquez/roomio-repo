@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740F446D196A29310011BC67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F446C196A29310011BC67 /* Foundation.framework */; };
+		740F446F196A29310011BC67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F446E196A29310011BC67 /* CoreGraphics.framework */; };
+		740F4471196A29310011BC67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F4470196A29310011BC67 /* UIKit.framework */; };
+		740F4477196A29310011BC67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 740F4475196A29310011BC67 /* InfoPlist.strings */; };
+		740F4479196A29310011BC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F4478196A29310011BC67 /* main.m */; };
+		740F447D196A29310011BC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F447C196A29310011BC67 /* AppDelegate.m */; };
+		740F448C196A29310011BC67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F448B196A29310011BC67 /* XCTest.framework */; };
+		740F448D196A29310011BC67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F446C196A29310011BC67 /* Foundation.framework */; };
+		740F448E196A29310011BC67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F4470196A29310011BC67 /* UIKit.framework */; };
+		740F4496196A29310011BC67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 740F4494196A29310011BC67 /* InfoPlist.strings */; };
+		740F4498196A29310011BC67 /* RoomioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F4497196A29310011BC67 /* RoomioTests.m */; };
+		740F44A4196A29980011BC67 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44A2196A29980011BC67 /* splash.png */; };
+		740F44A5196A29980011BC67 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44A3196A29980011BC67 /* splash@2x.png */; };
+		740F44AA196A2B030011BC67 /* menu_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44A7196A2B030011BC67 /* menu_btn.png */; };
+		740F44AB196A2B030011BC67 /* roomio_logo_letter_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44A8196A2B030011BC67 /* roomio_logo_letter_sm.png */; };
+		740F44AC196A2B030011BC67 /* roomio_logo_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44A9196A2B030011BC67 /* roomio_logo_sm.png */; };
+		740F44AF196A2BC70011BC67 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740F44AE196A2BC70011BC67 /* LoginView.xib */; };
+		740F44B1196A2DEC0011BC67 /* CreateAccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740F44B0196A2DEC0011BC67 /* CreateAccountView.xib */; };
+		740F44B3196A36900011BC67 /* OptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740F44B2196A36900011BC67 /* OptionViewCell.xib */; };
+		740F44B6196A3B010011BC67 /* option_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44B4196A3B010011BC67 /* option_checked.png */; };
+		740F44B7196A3B010011BC67 /* option_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44B5196A3B010011BC67 /* option_unchecked.png */; };
+		740F44BE196A3E6E0011BC67 /* fb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44B9196A3E6E0011BC67 /* fb_icon.png */; };
+		740F44BF196A3E6E0011BC67 /* gplus_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44BA196A3E6E0011BC67 /* gplus_icon.png */; };
+		740F44C0196A3E6E0011BC67 /* in_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44BB196A3E6E0011BC67 /* in_icon.png */; };
+		740F44C1196A3E6E0011BC67 /* roomio_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44BC196A3E6E0011BC67 /* roomio_logo.png */; };
+		740F44C2196A3E6E0011BC67 /* tw_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44BD196A3E6E0011BC67 /* tw_icon.png */; };
+		740F44C6196A3EDF0011BC67 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740F44C5196A3EDF0011BC67 /* HomeView.xib */; };
+		740F44C8196A46400011BC67 /* roomio_line_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 740F44C7196A46400011BC67 /* roomio_line_logo.png */; };
+		740F44CB196A47E30011BC67 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F44CA196A47E30011BC67 /* HomeViewController.m */; };
+		740F44CF196A54540011BC67 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F44CE196A54540011BC67 /* CreateAccountViewController.m */; };
+		74316A4F1980AE3300CDE675 /* RoomProvileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74316A4E1980AE3300CDE675 /* RoomProvileViewController.m */; };
+		74316A511980B64F00CDE675 /* add_icon_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 74316A501980B64F00CDE675 /* add_icon_disabled.png */; };
+		74623A5B196CD3F600F442EA /* OptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74623A5A196CD3F600F442EA /* OptionsView.xib */; };
+		74623A5E196CD45D00F442EA /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74623A5D196CD45D00F442EA /* OptionsViewController.m */; };
+		74623A62196CD54100F442EA /* OptionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74623A61196CD54100F442EA /* OptionViewCell.m */; };
+		74623A66196CE4DC00F442EA /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 74623A65196CE4DC00F442EA /* Utilities.m */; };
+		748F050C197F647200C9664D /* RoomPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748F050B197F647200C9664D /* RoomPickerView.xib */; };
+		748F050F197F648B00C9664D /* RoomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F050E197F648B00C9664D /* RoomPickerViewController.m */; };
+		74903CD61976D47B00B429E8 /* roomio_logo_hz.png in Resources */ = {isa = PBXBuildFile; fileRef = 74903CD51976D47B00B429E8 /* roomio_logo_hz.png */; };
+		74903CD8197737C900B429E8 /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CD7197737C900B429E8 /* KinveyKit.framework */; };
+		74903CDA1977384B00B429E8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CD91977384B00B429E8 /* Accounts.framework */; };
+		74903CDC1977385E00B429E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CDB1977385E00B429E8 /* CoreLocation.framework */; };
+		74903CDE1977386F00B429E8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CDD1977386F00B429E8 /* libsqlite3.dylib */; };
+		74903CE01977387800B429E8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CDF1977387800B429E8 /* MobileCoreServices.framework */; };
+		74903CE21977387F00B429E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CE11977387F00B429E8 /* Security.framework */; };
+		74903CE41977388600B429E8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CE31977388600B429E8 /* Social.framework */; };
+		74903CE61977388E00B429E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CE51977388E00B429E8 /* SystemConfiguration.framework */; };
+		74903CE81977635A00B429E8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74903CE71977635A00B429E8 /* FacebookSDK.framework */; };
+		74A7BD1419798D94003B9E3E /* SingleChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7BD1319798D94003B9E3E /* SingleChoiceViewController.m */; };
+		74A7BD1619798E4D003B9E3E /* QuestionChoicesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74A7BD1519798E4D003B9E3E /* QuestionChoicesView.xib */; };
+		74A7BD1B1979A700003B9E3E /* CheckboxChoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74A7BD1A1979A700003B9E3E /* CheckboxChoiceView.xib */; };
+		74A7BD1D1979A8AC003B9E3E /* RadioChoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74A7BD1C1979A8AC003B9E3E /* RadioChoiceView.xib */; };
+		74A7BD201979A9EF003B9E3E /* QuestionChoicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7BD1F1979A9EF003B9E3E /* QuestionChoicesViewController.m */; };
+		74A7BD231979AA3B003B9E3E /* CheckboxChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7BD221979AA3B003B9E3E /* CheckboxChoiceViewController.m */; };
+		74A7BD261979AA52003B9E3E /* RadioButtonChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7BD251979AA52003B9E3E /* RadioButtonChoiceViewController.m */; };
+		74A7BD291979AA5F003B9E3E /* BaseChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7BD281979AA5F003B9E3E /* BaseChoiceViewController.m */; };
+		74AD901C19789379006FBD81 /* SocialUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD901B19789379006FBD81 /* SocialUserViewController.m */; };
+		74AD9020197893B5006FBD81 /* SocialMediaUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD901F197893B5006FBD81 /* SocialMediaUser.m */; };
+		74AD9022197894CB006FBD81 /* SocialUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AD9021197894CB006FBD81 /* SocialUserView.xib */; };
+		74AECBE2197A09DA00F3B5BD /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AECBE0197A09DA00F3B5BD /* checkbox_checked.png */; };
+		74AECBE3197A09DA00F3B5BD /* checkbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AECBE1197A09DA00F3B5BD /* checkbox_unchecked.png */; };
+		74AECBE6197A10DD00F3B5BD /* next_arrow_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AECBE4197A10DD00F3B5BD /* next_arrow_disabled.png */; };
+		74AECBE7197A10DD00F3B5BD /* next_arrow_enabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AECBE5197A10DD00F3B5BD /* next_arrow_enabled.png */; };
+		74B3135D1980930F000A5EA6 /* RoomProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B3135C1980930F000A5EA6 /* RoomProfileView.xib */; };
+		74B31361198097AB000A5EA6 /* add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B3135E198097AB000A5EA6 /* add_icon.png */; };
+		74B31362198097AB000A5EA6 /* delete_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B3135F198097AB000A5EA6 /* delete_icon.png */; };
+		74B31363198097AB000A5EA6 /* edit_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B31360198097AB000A5EA6 /* edit_icon.png */; };
+		74B313651980A6FC000A5EA6 /* RoomEditPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B313641980A6FC000A5EA6 /* RoomEditPanelView.xib */; };
+		74B313681980A8BD000A5EA6 /* RoomEditPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B313671980A8BD000A5EA6 /* RoomEditPanelViewController.m */; };
+		74BE66C519794AF900529821 /* CompatibilityQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE66C419794AF900529821 /* CompatibilityQuestionViewController.m */; };
+		74BE66C719794B0D00529821 /* CompatibilityQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BE66C619794B0D00529821 /* CompatibilityQuestionView.xib */; };
+		74BE66CA19794EA500529821 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE66C919794EA500529821 /* QuestionModel.m */; };
+		74BE66CD19794ECA00529821 /* ChoiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE66CC19794ECA00529821 /* ChoiceModel.m */; };
+		74C3E9C2196E280900875B52 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C3E9C1196E280900875B52 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		740F448F196A29310011BC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 740F4461196A29310011BC67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740F4468196A29310011BC67;
+			remoteInfo = Roomio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740F4469196A29310011BC67 /* Roomio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740F446C196A29310011BC67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		740F446E196A29310011BC67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		740F4470196A29310011BC67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		740F4474196A29310011BC67 /* Roomio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roomio-Info.plist"; sourceTree = "<group>"; };
+		740F4476196A29310011BC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		740F4478196A29310011BC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		740F447A196A29310011BC67 /* Roomio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roomio-Prefix.pch"; sourceTree = "<group>"; };
+		740F447B196A29310011BC67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		740F447C196A29310011BC67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		740F448A196A29310011BC67 /* RoomioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		740F448B196A29310011BC67 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		740F4493196A29310011BC67 /* RoomioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoomioTests-Info.plist"; sourceTree = "<group>"; };
+		740F4495196A29310011BC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		740F4497196A29310011BC67 /* RoomioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomioTests.m; sourceTree = "<group>"; };
+		740F44A2196A29980011BC67 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		740F44A3196A29980011BC67 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		740F44A7196A2B030011BC67 /* menu_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_btn.png; sourceTree = "<group>"; };
+		740F44A8196A2B030011BC67 /* roomio_logo_letter_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roomio_logo_letter_sm.png; sourceTree = "<group>"; };
+		740F44A9196A2B030011BC67 /* roomio_logo_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roomio_logo_sm.png; sourceTree = "<group>"; };
+		740F44AE196A2BC70011BC67 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		740F44B0196A2DEC0011BC67 /* CreateAccountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateAccountView.xib; sourceTree = "<group>"; };
+		740F44B2196A36900011BC67 /* OptionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OptionViewCell.xib; path = ../Views/OptionViewCell.xib; sourceTree = "<group>"; };
+		740F44B4196A3B010011BC67 /* option_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = option_checked.png; sourceTree = "<group>"; };
+		740F44B5196A3B010011BC67 /* option_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = option_unchecked.png; sourceTree = "<group>"; };
+		740F44B9196A3E6E0011BC67 /* fb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_icon.png; sourceTree = "<group>"; };
+		740F44BA196A3E6E0011BC67 /* gplus_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gplus_icon.png; sourceTree = "<group>"; };
+		740F44BB196A3E6E0011BC67 /* in_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = in_icon.png; sourceTree = "<group>"; };
+		740F44BC196A3E6E0011BC67 /* roomio_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roomio_logo.png; sourceTree = "<group>"; };
+		740F44BD196A3E6E0011BC67 /* tw_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tw_icon.png; sourceTree = "<group>"; };
+		740F44C5196A3EDF0011BC67 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		740F44C7196A46400011BC67 /* roomio_line_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roomio_line_logo.png; sourceTree = "<group>"; };
+		740F44C9196A47E30011BC67 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		740F44CA196A47E30011BC67 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		740F44CD196A54540011BC67 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		740F44CE196A54540011BC67 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		74316A4D1980AE3300CDE675 /* RoomProvileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomProvileViewController.h; sourceTree = "<group>"; };
+		74316A4E1980AE3300CDE675 /* RoomProvileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomProvileViewController.m; sourceTree = "<group>"; };
+		74316A501980B64F00CDE675 /* add_icon_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_icon_disabled.png; sourceTree = "<group>"; };
+		74623A5A196CD3F600F442EA /* OptionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsView.xib; sourceTree = "<group>"; };
+		74623A5C196CD45D00F442EA /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		74623A5D196CD45D00F442EA /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		74623A60196CD54100F442EA /* OptionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewCell.h; sourceTree = "<group>"; };
+		74623A61196CD54100F442EA /* OptionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewCell.m; sourceTree = "<group>"; };
+		74623A64196CE4DC00F442EA /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		74623A65196CE4DC00F442EA /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		74623A67196CE6F400F442EA /* OptionsDismissDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionsDismissDelegate.h; sourceTree = "<group>"; };
+		748F050B197F647200C9664D /* RoomPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomPickerView.xib; sourceTree = "<group>"; };
+		748F050D197F648B00C9664D /* RoomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomPickerViewController.h; sourceTree = "<group>"; };
+		748F050E197F648B00C9664D /* RoomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomPickerViewController.m; sourceTree = "<group>"; };
+		74903CD51976D47B00B429E8 /* roomio_logo_hz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roomio_logo_hz.png; sourceTree = "<group>"; };
+		74903CD7197737C900B429E8 /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
+		74903CD91977384B00B429E8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		74903CDB1977385E00B429E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		74903CDD1977386F00B429E8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		74903CDF1977387800B429E8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		74903CE11977387F00B429E8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		74903CE31977388600B429E8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		74903CE51977388E00B429E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74903CE71977635A00B429E8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		74A7BD1219798D94003B9E3E /* SingleChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleChoiceViewController.h; sourceTree = "<group>"; };
+		74A7BD1319798D94003B9E3E /* SingleChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleChoiceViewController.m; sourceTree = "<group>"; };
+		74A7BD1519798E4D003B9E3E /* QuestionChoicesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionChoicesView.xib; sourceTree = "<group>"; };
+		74A7BD1A1979A700003B9E3E /* CheckboxChoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckboxChoiceView.xib; sourceTree = "<group>"; };
+		74A7BD1C1979A8AC003B9E3E /* RadioChoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioChoiceView.xib; sourceTree = "<group>"; };
+		74A7BD1E1979A9EF003B9E3E /* QuestionChoicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionChoicesViewController.h; sourceTree = "<group>"; };
+		74A7BD1F1979A9EF003B9E3E /* QuestionChoicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionChoicesViewController.m; sourceTree = "<group>"; };
+		74A7BD211979AA3B003B9E3E /* CheckboxChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckboxChoiceViewController.h; sourceTree = "<group>"; };
+		74A7BD221979AA3B003B9E3E /* CheckboxChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckboxChoiceViewController.m; sourceTree = "<group>"; };
+		74A7BD241979AA52003B9E3E /* RadioButtonChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButtonChoiceViewController.h; sourceTree = "<group>"; };
+		74A7BD251979AA52003B9E3E /* RadioButtonChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButtonChoiceViewController.m; sourceTree = "<group>"; };
+		74A7BD271979AA5F003B9E3E /* BaseChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseChoiceViewController.h; sourceTree = "<group>"; };
+		74A7BD281979AA5F003B9E3E /* BaseChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseChoiceViewController.m; sourceTree = "<group>"; };
+		74A7BD2A1979B12A003B9E3E /* ChoiceSelectedDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoiceSelectedDelegate.h; sourceTree = "<group>"; };
+		74AD901A19789379006FBD81 /* SocialUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialUserViewController.h; sourceTree = "<group>"; };
+		74AD901B19789379006FBD81 /* SocialUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialUserViewController.m; sourceTree = "<group>"; };
+		74AD901E197893B5006FBD81 /* SocialMediaUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialMediaUser.h; sourceTree = "<group>"; };
+		74AD901F197893B5006FBD81 /* SocialMediaUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialMediaUser.m; sourceTree = "<group>"; };
+		74AD9021197894CB006FBD81 /* SocialUserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialUserView.xib; sourceTree = "<group>"; };
+		74AECBE0197A09DA00F3B5BD /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		74AECBE1197A09DA00F3B5BD /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
+		74AECBE4197A10DD00F3B5BD /* next_arrow_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_arrow_disabled.png; sourceTree = "<group>"; };
+		74AECBE5197A10DD00F3B5BD /* next_arrow_enabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_arrow_enabled.png; sourceTree = "<group>"; };
+		74AECBE8197A194600F3B5BD /* QuestionCompletedDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionCompletedDelegate.h; sourceTree = "<group>"; };
+		74B3135C1980930F000A5EA6 /* RoomProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomProfileView.xib; sourceTree = "<group>"; };
+		74B3135E198097AB000A5EA6 /* add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_icon.png; sourceTree = "<group>"; };
+		74B3135F198097AB000A5EA6 /* delete_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete_icon.png; sourceTree = "<group>"; };
+		74B31360198097AB000A5EA6 /* edit_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_icon.png; sourceTree = "<group>"; };
+		74B313641980A6FC000A5EA6 /* RoomEditPanelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomEditPanelView.xib; sourceTree = "<group>"; };
+		74B313661980A8BD000A5EA6 /* RoomEditPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomEditPanelViewController.h; sourceTree = "<group>"; };
+		74B313671980A8BD000A5EA6 /* RoomEditPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomEditPanelViewController.m; sourceTree = "<group>"; };
+		74B313691980A9A4000A5EA6 /* RoomEditPanelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomEditPanelDelegate.h; sourceTree = "<group>"; };
+		74BE66C319794AF900529821 /* CompatibilityQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompatibilityQuestionViewController.h; sourceTree = "<group>"; };
+		74BE66C419794AF900529821 /* CompatibilityQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompatibilityQuestionViewController.m; sourceTree = "<group>"; };
+		74BE66C619794B0D00529821 /* CompatibilityQuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompatibilityQuestionView.xib; sourceTree = "<group>"; };
+		74BE66C819794EA500529821 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		74BE66C919794EA500529821 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
+		74BE66CB19794ECA00529821 /* ChoiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceModel.h; sourceTree = "<group>"; };
+		74BE66CC19794ECA00529821 /* ChoiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceModel.m; sourceTree = "<group>"; };
+		74BE66CE19794F0300529821 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		74C3E9C0196E280900875B52 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		74C3E9C1196E280900875B52 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740F4466196A29310011BC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74903CE61977388E00B429E8 /* SystemConfiguration.framework in Frameworks */,
+				74903CE41977388600B429E8 /* Social.framework in Frameworks */,
+				74903CE21977387F00B429E8 /* Security.framework in Frameworks */,
+				74903CE01977387800B429E8 /* MobileCoreServices.framework in Frameworks */,
+				74903CDE1977386F00B429E8 /* libsqlite3.dylib in Frameworks */,
+				74903CE81977635A00B429E8 /* FacebookSDK.framework in Frameworks */,
+				74903CDC1977385E00B429E8 /* CoreLocation.framework in Frameworks */,
+				740F446F196A29310011BC67 /* CoreGraphics.framework in Frameworks */,
+				74903CDA1977384B00B429E8 /* Accounts.framework in Frameworks */,
+				74903CD8197737C900B429E8 /* KinveyKit.framework in Frameworks */,
+				740F4471196A29310011BC67 /* UIKit.framework in Frameworks */,
+				740F446D196A29310011BC67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740F4487196A29310011BC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740F448C196A29310011BC67 /* XCTest.framework in Frameworks */,
+				740F448E196A29310011BC67 /* UIKit.framework in Frameworks */,
+				740F448D196A29310011BC67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740F4460196A29310011BC67 = {
+			isa = PBXGroup;
+			children = (
+				740F4472196A29310011BC67 /* Roomio */,
+				740F4491196A29310011BC67 /* RoomioTests */,
+				740F446B196A29310011BC67 /* Frameworks */,
+				740F446A196A29310011BC67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		740F446A196A29310011BC67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740F4469196A29310011BC67 /* Roomio.app */,
+				740F448A196A29310011BC67 /* RoomioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740F446B196A29310011BC67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74903CE71977635A00B429E8 /* FacebookSDK.framework */,
+				74903CE51977388E00B429E8 /* SystemConfiguration.framework */,
+				74903CE31977388600B429E8 /* Social.framework */,
+				74903CE11977387F00B429E8 /* Security.framework */,
+				74903CDF1977387800B429E8 /* MobileCoreServices.framework */,
+				74903CDD1977386F00B429E8 /* libsqlite3.dylib */,
+				74903CDB1977385E00B429E8 /* CoreLocation.framework */,
+				74903CD91977384B00B429E8 /* Accounts.framework */,
+				74903CD7197737C900B429E8 /* KinveyKit.framework */,
+				740F446C196A29310011BC67 /* Foundation.framework */,
+				740F446E196A29310011BC67 /* CoreGraphics.framework */,
+				740F4470196A29310011BC67 /* UIKit.framework */,
+				740F448B196A29310011BC67 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		740F4472196A29310011BC67 /* Roomio */ = {
+			isa = PBXGroup;
+			children = (
+				74AD901D197893A0006FBD81 /* Models */,
+				74623A63196CE4CC00F442EA /* Helpers */,
+				74623A59196CD3D900F442EA /* Controls */,
+				740F44B8196A3C5A0011BC67 /* Controllers */,
+				740F44AD196A2BAD0011BC67 /* Views */,
+				740F44A6196A2AEC0011BC67 /* Images */,
+				740F44A2196A29980011BC67 /* splash.png */,
+				740F44A3196A29980011BC67 /* splash@2x.png */,
+				740F447B196A29310011BC67 /* AppDelegate.h */,
+				740F447C196A29310011BC67 /* AppDelegate.m */,
+				740F4473196A29310011BC67 /* Supporting Files */,
+			);
+			path = Roomio;
+			sourceTree = "<group>";
+		};
+		740F4473196A29310011BC67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				740F4474196A29310011BC67 /* Roomio-Info.plist */,
+				740F4475196A29310011BC67 /* InfoPlist.strings */,
+				740F4478196A29310011BC67 /* main.m */,
+				740F447A196A29310011BC67 /* Roomio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		740F4491196A29310011BC67 /* RoomioTests */ = {
+			isa = PBXGroup;
+			children = (
+				740F4497196A29310011BC67 /* RoomioTests.m */,
+				740F4492196A29310011BC67 /* Supporting Files */,
+			);
+			path = RoomioTests;
+			sourceTree = "<group>";
+		};
+		740F4492196A29310011BC67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				740F4493196A29310011BC67 /* RoomioTests-Info.plist */,
+				740F4494196A29310011BC67 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		740F44A6196A2AEC0011BC67 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				74316A501980B64F00CDE675 /* add_icon_disabled.png */,
+				74B3135E198097AB000A5EA6 /* add_icon.png */,
+				74B3135F198097AB000A5EA6 /* delete_icon.png */,
+				74B31360198097AB000A5EA6 /* edit_icon.png */,
+				74AECBE4197A10DD00F3B5BD /* next_arrow_disabled.png */,
+				74AECBE5197A10DD00F3B5BD /* next_arrow_enabled.png */,
+				74AECBE0197A09DA00F3B5BD /* checkbox_checked.png */,
+				74AECBE1197A09DA00F3B5BD /* checkbox_unchecked.png */,
+				74903CD51976D47B00B429E8 /* roomio_logo_hz.png */,
+				740F44C7196A46400011BC67 /* roomio_line_logo.png */,
+				740F44B9196A3E6E0011BC67 /* fb_icon.png */,
+				740F44BA196A3E6E0011BC67 /* gplus_icon.png */,
+				740F44BB196A3E6E0011BC67 /* in_icon.png */,
+				740F44BC196A3E6E0011BC67 /* roomio_logo.png */,
+				740F44BD196A3E6E0011BC67 /* tw_icon.png */,
+				740F44B4196A3B010011BC67 /* option_checked.png */,
+				740F44B5196A3B010011BC67 /* option_unchecked.png */,
+				740F44A7196A2B030011BC67 /* menu_btn.png */,
+				740F44A8196A2B030011BC67 /* roomio_logo_letter_sm.png */,
+				740F44A9196A2B030011BC67 /* roomio_logo_sm.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		740F44AD196A2BAD0011BC67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				740F44AE196A2BC70011BC67 /* LoginView.xib */,
+				740F44B0196A2DEC0011BC67 /* CreateAccountView.xib */,
+				740F44C5196A3EDF0011BC67 /* HomeView.xib */,
+				74AD9021197894CB006FBD81 /* SocialUserView.xib */,
+				74BE66C619794B0D00529821 /* CompatibilityQuestionView.xib */,
+				74B3135C1980930F000A5EA6 /* RoomProfileView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		740F44B8196A3C5A0011BC67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				740F44C9196A47E30011BC67 /* HomeViewController.h */,
+				740F44CA196A47E30011BC67 /* HomeViewController.m */,
+				740F44CD196A54540011BC67 /* CreateAccountViewController.h */,
+				740F44CE196A54540011BC67 /* CreateAccountViewController.m */,
+				74C3E9C0196E280900875B52 /* LoginViewController.h */,
+				74C3E9C1196E280900875B52 /* LoginViewController.m */,
+				74AD901A19789379006FBD81 /* SocialUserViewController.h */,
+				74AD901B19789379006FBD81 /* SocialUserViewController.m */,
+				74BE66C319794AF900529821 /* CompatibilityQuestionViewController.h */,
+				74BE66C419794AF900529821 /* CompatibilityQuestionViewController.m */,
+				74A7BD1E1979A9EF003B9E3E /* QuestionChoicesViewController.h */,
+				74A7BD1F1979A9EF003B9E3E /* QuestionChoicesViewController.m */,
+				74316A4D1980AE3300CDE675 /* RoomProvileViewController.h */,
+				74316A4E1980AE3300CDE675 /* RoomProvileViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		74623A59196CD3D900F442EA /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				740F44B2196A36900011BC67 /* OptionViewCell.xib */,
+				74623A5A196CD3F600F442EA /* OptionsView.xib */,
+				74623A5C196CD45D00F442EA /* OptionsViewController.h */,
+				74623A5D196CD45D00F442EA /* OptionsViewController.m */,
+				74623A60196CD54100F442EA /* OptionViewCell.h */,
+				74623A61196CD54100F442EA /* OptionViewCell.m */,
+				74A7BD1219798D94003B9E3E /* SingleChoiceViewController.h */,
+				74A7BD1319798D94003B9E3E /* SingleChoiceViewController.m */,
+				74A7BD1519798E4D003B9E3E /* QuestionChoicesView.xib */,
+				74A7BD1A1979A700003B9E3E /* CheckboxChoiceView.xib */,
+				74A7BD1C1979A8AC003B9E3E /* RadioChoiceView.xib */,
+				74A7BD211979AA3B003B9E3E /* CheckboxChoiceViewController.h */,
+				74A7BD221979AA3B003B9E3E /* CheckboxChoiceViewController.m */,
+				74A7BD241979AA52003B9E3E /* RadioButtonChoiceViewController.h */,
+				74A7BD251979AA52003B9E3E /* RadioButtonChoiceViewController.m */,
+				74A7BD281979AA5F003B9E3E /* BaseChoiceViewController.m */,
+				74A7BD271979AA5F003B9E3E /* BaseChoiceViewController.h */,
+				74A7BD2A1979B12A003B9E3E /* ChoiceSelectedDelegate.h */,
+				74AECBE8197A194600F3B5BD /* QuestionCompletedDelegate.h */,
+				748F050B197F647200C9664D /* RoomPickerView.xib */,
+				748F050D197F648B00C9664D /* RoomPickerViewController.h */,
+				748F050E197F648B00C9664D /* RoomPickerViewController.m */,
+				74B313641980A6FC000A5EA6 /* RoomEditPanelView.xib */,
+				74B313661980A8BD000A5EA6 /* RoomEditPanelViewController.h */,
+				74B313671980A8BD000A5EA6 /* RoomEditPanelViewController.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		74623A63196CE4CC00F442EA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				74623A64196CE4DC00F442EA /* Utilities.h */,
+				74623A65196CE4DC00F442EA /* Utilities.m */,
+				74623A67196CE6F400F442EA /* OptionsDismissDelegate.h */,
+				74BE66CE19794F0300529821 /* Enums.h */,
+				74B313691980A9A4000A5EA6 /* RoomEditPanelDelegate.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74AD901D197893A0006FBD81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74AD901E197893B5006FBD81 /* SocialMediaUser.h */,
+				74AD901F197893B5006FBD81 /* SocialMediaUser.m */,
+				74BE66C819794EA500529821 /* QuestionModel.h */,
+				74BE66C919794EA500529821 /* QuestionModel.m */,
+				74BE66CB19794ECA00529821 /* ChoiceModel.h */,
+				74BE66CC19794ECA00529821 /* ChoiceModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740F4468196A29310011BC67 /* Roomio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740F449B196A29310011BC67 /* Build configuration list for PBXNativeTarget "Roomio" */;
+			buildPhases = (
+				740F4465196A29310011BC67 /* Sources */,
+				740F4466196A29310011BC67 /* Frameworks */,
+				740F4467196A29310011BC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roomio;
+			productName = Roomio;
+			productReference = 740F4469196A29310011BC67 /* Roomio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		740F4489196A29310011BC67 /* RoomioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740F449E196A29310011BC67 /* Build configuration list for PBXNativeTarget "RoomioTests" */;
+			buildPhases = (
+				740F4486196A29310011BC67 /* Sources */,
+				740F4487196A29310011BC67 /* Frameworks */,
+				740F4488196A29310011BC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				740F4490196A29310011BC67 /* PBXTargetDependency */,
+			);
+			name = RoomioTests;
+			productName = RoomioTests;
+			productReference = 740F448A196A29310011BC67 /* RoomioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740F4461196A29310011BC67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Roman Jaquez";
+				TargetAttributes = {
+					740F4489196A29310011BC67 = {
+						TestTargetID = 740F4468196A29310011BC67;
+					};
+				};
+			};
+			buildConfigurationList = 740F4464196A29310011BC67 /* Build configuration list for PBXProject "Roomio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740F4460196A29310011BC67;
+			productRefGroup = 740F446A196A29310011BC67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740F4468196A29310011BC67 /* Roomio */,
+				740F4489196A29310011BC67 /* RoomioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740F4467196A29310011BC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740F44B1196A2DEC0011BC67 /* CreateAccountView.xib in Resources */,
+				74623A5B196CD3F600F442EA /* OptionsView.xib in Resources */,
+				740F44C2196A3E6E0011BC67 /* tw_icon.png in Resources */,
+				74A7BD1D1979A8AC003B9E3E /* RadioChoiceView.xib in Resources */,
+				74316A511980B64F00CDE675 /* add_icon_disabled.png in Resources */,
+				74AD9022197894CB006FBD81 /* SocialUserView.xib in Resources */,
+				74AECBE3197A09DA00F3B5BD /* checkbox_unchecked.png in Resources */,
+				74A7BD1B1979A700003B9E3E /* CheckboxChoiceView.xib in Resources */,
+				74AECBE2197A09DA00F3B5BD /* checkbox_checked.png in Resources */,
+				740F44A5196A29980011BC67 /* splash@2x.png in Resources */,
+				740F44AA196A2B030011BC67 /* menu_btn.png in Resources */,
+				740F44AF196A2BC70011BC67 /* LoginView.xib in Resources */,
+				740F44C0196A3E6E0011BC67 /* in_icon.png in Resources */,
+				740F44BF196A3E6E0011BC67 /* gplus_icon.png in Resources */,
+				74B31362198097AB000A5EA6 /* delete_icon.png in Resources */,
+				74B31363198097AB000A5EA6 /* edit_icon.png in Resources */,
+				740F44BE196A3E6E0011BC67 /* fb_icon.png in Resources */,
+				740F44C1196A3E6E0011BC67 /* roomio_logo.png in Resources */,
+				740F44B6196A3B010011BC67 /* option_checked.png in Resources */,
+				74B31361198097AB000A5EA6 /* add_icon.png in Resources */,
+				740F44B7196A3B010011BC67 /* option_unchecked.png in Resources */,
+				740F44C6196A3EDF0011BC67 /* HomeView.xib in Resources */,
+				74A7BD1619798E4D003B9E3E /* QuestionChoicesView.xib in Resources */,
+				740F44AC196A2B030011BC67 /* roomio_logo_sm.png in Resources */,
+				74BE66C719794B0D00529821 /* CompatibilityQuestionView.xib in Resources */,
+				740F44B3196A36900011BC67 /* OptionViewCell.xib in Resources */,
+				74AECBE7197A10DD00F3B5BD /* next_arrow_enabled.png in Resources */,
+				74AECBE6197A10DD00F3B5BD /* next_arrow_disabled.png in Resources */,
+				74903CD61976D47B00B429E8 /* roomio_logo_hz.png in Resources */,
+				740F44A4196A29980011BC67 /* splash.png in Resources */,
+				740F44C8196A46400011BC67 /* roomio_line_logo.png in Resources */,
+				740F44AB196A2B030011BC67 /* roomio_logo_letter_sm.png in Resources */,
+				740F4477196A29310011BC67 /* InfoPlist.strings in Resources */,
+				748F050C197F647200C9664D /* RoomPickerView.xib in Resources */,
+				74B3135D1980930F000A5EA6 /* RoomProfileView.xib in Resources */,
+				74B313651980A6FC000A5EA6 /* RoomEditPanelView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740F4488196A29310011BC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740F4496196A29310011BC67 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740F4465196A29310011BC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C3E9C2196E280900875B52 /* LoginViewController.m in Sources */,
+				740F44CF196A54540011BC67 /* CreateAccountViewController.m in Sources */,
+				74A7BD291979AA5F003B9E3E /* BaseChoiceViewController.m in Sources */,
+				74BE66CD19794ECA00529821 /* ChoiceModel.m in Sources */,
+				74A7BD201979A9EF003B9E3E /* QuestionChoicesViewController.m in Sources */,
+				74623A62196CD54100F442EA /* OptionViewCell.m in Sources */,
+				74BE66C519794AF900529821 /* CompatibilityQuestionViewController.m in Sources */,
+				740F447D196A29310011BC67 /* AppDelegate.m in Sources */,
+				74623A5E196CD45D00F442EA /* OptionsViewController.m in Sources */,
+				740F4479196A29310011BC67 /* main.m in Sources */,
+				748F050F197F648B00C9664D /* RoomPickerViewController.m in Sources */,
+				74A7BD261979AA52003B9E3E /* RadioButtonChoiceViewController.m in Sources */,
+				74BE66CA19794EA500529821 /* QuestionModel.m in Sources */,
+				74A7BD231979AA3B003B9E3E /* CheckboxChoiceViewController.m in Sources */,
+				74B313681980A8BD000A5EA6 /* RoomEditPanelViewController.m in Sources */,
+				74A7BD1419798D94003B9E3E /* SingleChoiceViewController.m in Sources */,
+				74623A66196CE4DC00F442EA /* Utilities.m in Sources */,
+				74AD901C19789379006FBD81 /* SocialUserViewController.m in Sources */,
+				74AD9020197893B5006FBD81 /* SocialMediaUser.m in Sources */,
+				74316A4F1980AE3300CDE675 /* RoomProvileViewController.m in Sources */,
+				740F44CB196A47E30011BC67 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740F4486196A29310011BC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740F4498196A29310011BC67 /* RoomioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		740F4490196A29310011BC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740F4468196A29310011BC67 /* Roomio */;
+			targetProxy = 740F448F196A29310011BC67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		740F4475196A29310011BC67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740F4476196A29310011BC67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		740F4494196A29310011BC67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740F4495196A29310011BC67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740F4499196A29310011BC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		740F449A196A29310011BC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		740F449C196A29310011BC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomio/Roomio-Prefix.pch";
+				INFOPLIST_FILE = "Roomio/Roomio-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		740F449D196A29310011BC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomio/Roomio-Prefix.pch";
+				INFOPLIST_FILE = "Roomio/Roomio-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		740F449F196A29310011BC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Roomio.app/Roomio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomio/Roomio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RoomioTests/RoomioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		740F44A0196A29310011BC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Roomio.app/Roomio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomio/Roomio-Prefix.pch";
+				INFOPLIST_FILE = "RoomioTests/RoomioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740F4464196A29310011BC67 /* Build configuration list for PBXProject "Roomio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740F4499196A29310011BC67 /* Debug */,
+				740F449A196A29310011BC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740F449B196A29310011BC67 /* Build configuration list for PBXNativeTarget "Roomio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740F449C196A29310011BC67 /* Debug */,
+				740F449D196A29310011BC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740F449E196A29310011BC67 /* Build configuration list for PBXNativeTarget "RoomioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740F449F196A29310011BC67 /* Debug */,
+				740F44A0196A29310011BC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 740F4461196A29310011BC67 /* Project object */;
+}
